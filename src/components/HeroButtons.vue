@@ -20,13 +20,12 @@ import GPlayBrand from '@/assets/icons/GPlayBrand.vue';
 .hero__links {
     display: flex;
     gap: 1.5rem;
-    margin-top: 1rem;
     a {
+        min-width: 145px;
         display: inline-flex;
         align-items: center;
-        min-width: 155px;
-        gap: 4px;
-        padding: 5px 6px;
+        gap: 0.3rem;
+        padding: 0.4rem 0.6rem;
         border-radius: 12px;
         text-decoration: none;
         border: 4px solid $neutral-gray;
@@ -34,19 +33,21 @@ import GPlayBrand from '@/assets/icons/GPlayBrand.vue';
         background-color: $primary-color;
         transition:
             background-color 0.3s ease,
-            box-shadow 0.3s ease;
+            box-shadow 0.3s ease,
+            transform 0.3s ease;
         &:hover {
             background-color: $secondary-color;
             box-shadow: 0 6px 8px rgba($primary-color, 0.5);
+            transform: translateY(-2px);
         }
         span {
             display: inline-flex;
             flex-direction: column;
-            font-size: 14px;
+            font-size: 0.75rem;
 
             .bold {
                 font-weight: 700;
-                font-size: 16px;
+                font-size: 0.875rem;
             }
         }
     }

@@ -27,7 +27,6 @@ import { hero } from '@/data/data.json';
 <style scoped lang="scss">
 .hero {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     padding: 5.5rem 1.5rem;
     background-color: $background-light;
@@ -50,10 +49,10 @@ import { hero } from '@/data/data.json';
             font-weight: 800;
         }
         p {
+            max-width: 480px;
             width: 100%;
-            max-width: 450px;
-            margin: 12px 0px;
-            font-size: 20px;
+            margin: 1rem 0;
+            font-size: 1.125rem;
             color: $secondary-color;
         }
     }
