@@ -12,22 +12,23 @@
 </template>
 
 <script setup lang="ts">
-import AppleBrand from '@/assets/icons/AppleBrand.vue';
 import GPlayBrand from '@/assets/icons/GPlayBrand.vue';
+import AppleBrand from '@/assets/icons/AppleBrand.vue';
 </script>
 
 <style scoped lang="scss">
 .hero__links {
     display: flex;
-    gap: 1.5rem;
+    gap: 1.8rem;
+
     a {
-        min-width: 145px;
+        min-width: 170px;
         display: inline-flex;
+        justify-content: center;
         align-items: center;
         gap: 0.3rem;
         padding: 0.4rem 0.6rem;
-        border-radius: 12px;
-        text-decoration: none;
+        border-radius: 10px;
         border: 4px solid $neutral-gray;
         color: $background-light;
         background-color: $primary-color;
@@ -35,11 +36,13 @@ import GPlayBrand from '@/assets/icons/GPlayBrand.vue';
             background-color 0.3s ease,
             box-shadow 0.3s ease,
             transform 0.3s ease;
+
         &:hover {
             background-color: $secondary-color;
             box-shadow: 0 6px 8px rgba($primary-color, 0.5);
             transform: translateY(-2px);
         }
+
         span {
             display: inline-flex;
             flex-direction: column;

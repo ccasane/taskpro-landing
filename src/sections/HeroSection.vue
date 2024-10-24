@@ -19,28 +19,28 @@
 </template>
 
 <script setup lang="ts">
-import HeroButtons from '@/components/HeroButtons.vue';
-import HeroImage from '@/components/HeroImage.vue';
 import { hero } from '@/data/data.json';
+import HeroImage from '@/components/HeroImage.vue';
+import HeroButtons from '@/components/HeroButtons.vue';
 </script>
 
 <style scoped lang="scss">
 .hero {
     display: flex;
     justify-content: center;
-    padding: 5.5rem 1.5rem;
+    padding: 5rem 1rem;
     background-color: $background-light;
 
     &__container {
+        width: 100%;
+        max-width: 990px;
         display: flex;
         align-items: center;
         justify-content: space-between;
-        width: 100%;
-        max-width: 980px;
     }
 
     &__data {
-        max-width: 600px;
+        max-width: 500px;
         width: 100%;
         h1 {
             font-size: 3.5rem;
@@ -52,7 +52,7 @@ import { hero } from '@/data/data.json';
             max-width: 480px;
             width: 100%;
             margin: 1rem 0;
-            font-size: 1.125rem;
+            font-size: 1.25rem;
             color: $secondary-color;
         }
     }
