@@ -12,17 +12,16 @@
 .header {
     background-color: $primary-color;
     &__container {
-        max-width: 980px;
+        max-width: 990px;
         margin: auto;
         display: flex;
         justify-content: center;
-        padding: 0.4rem 1.5rem;
+        padding: 0.6rem 1rem;
     }
     a {
         font-size: 2rem;
         font-weight: 700;
         color: $background-light;
-        text-decoration: none;
     }
 }
 </style>
