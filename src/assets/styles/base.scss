@@ -1,14 +1,7 @@
-$primary-color: #161a30;
-$secondary-color: #31304d;
-$neutral-gray: #b6bbc4;
-$background-light: #f0ece5;
-
-$font-text: 'Inter Variable', system-ui, sans-serif;
-$font-tittle: 'Montserrat Variable', system-ui, sans-serif;
-
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 *::before,
@@ -16,21 +9,15 @@ $font-tittle: 'Montserrat Variable', system-ui, sans-serif;
   box-sizing: border-box;
 }
 
-html {
-  line-height: 1.5;
-  font-family: $font-text;
-  scroll-behavior: smooth;
-}
-
 body {
   min-height: 100dvh;
+  line-height: 1.5;
   text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: $font-text;
 }
 
-p {
-  text-wrap: pretty;
+a {
+  text-decoration: none;
 }
 
 h1,
