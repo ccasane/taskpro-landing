@@ -1,0 +1,59 @@
+{
+  "hero": {
+    "title": "Organiza tu día y maximiza tu productividad",
+    "description": [
+      "Administre tareas, siga hábitos y alcance sus objetivos más rápido con nuestra aplicación todo en uno de productividad.",
+      "Manténgase organizado con notificaciones inteligentes y seguimiento del progreso en tiempo real."
+    ]
+  },
+  "benefits": [
+    {
+      "icon": "first-icon",
+      "alt": "icono de organización",
+      "title": "Organiza tu día con facilidad",
+      "description": "Planifica y prioriza tus tareas con una interfaz sencilla y eficiente"
+    },
+    {
+      "icon": "second-icon",
+      "alt": "icono de hábitos",
+      "title": "Desarrolla hábitos productivos",
+      "description": "Crea rutinas y sigue tu progreso para alcanzar tus objetivos"
+    },
+    {
+      "icon": "third-icon",
+      "alt": "icono de dispositivos",
+      "title": "Acceso a tus listas en cualquier lugar",
+      "description": "Sincroniza tus tareas en todos tus dispositivos"
+    },
+    {
+      "icon": "ford-icon",
+      "alt": "icono de recordatorio",
+      "title": "Nunca olvides una tarea importante",
+      "description": "Recibe recordatorios oportunos para mantenerte al día"
+    }
+  ],
+  "testimonials": [
+    {
+      "description": "TaskPro ha cambiado cómo gestiono mis proyectos. La sincronización con mi calendario y las notificaciones en tiempo real son clave. ¡Excelente herramienta!",
+      "person": "María Gómez",
+      "field": "Freelancer"
+    },
+    {
+      "description": "Como líder de equipo, TaskPro es justo lo que necesitaba. Puedo asignar tareas y seguir su progreso, manteniendo todo bajo control. Es esencial para nuestra productividad.",
+      "person": "Carlos Rodríguez",
+      "field": "Gerente de proyecto"
+    },
+    {
+      "description": "TaskPro me ha ayudado a organizar mis estudios de forma más eficiente. La interfaz es fácil de usar y las notificaciones me mantienen al día. ¡Un verdadero salvavidas!",
+      "person": "Ana Sanchez",
+      "field": "Estudiante universitaria"
+    }
+  ],
+  "store": {
+    "title": "Organiza tu día y maximiza tu productividad",
+    "description": [
+      "Administre tareas, siga hábitos y alcance sus objetivos más rápido con nuestra aplicación todo en uno de productividad.",
+      "Manténgase organizado con notificaciones inteligentes y seguimiento del progreso en tiempo real."
+    ]
+  }
+}
