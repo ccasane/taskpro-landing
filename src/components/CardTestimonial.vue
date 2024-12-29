@@ -28,6 +28,10 @@ defineProps<{
 
   &__header {
     padding: 1rem;
+
+    p {
+      color: $secondary-color;
+    }
   }
 
   &__footer {

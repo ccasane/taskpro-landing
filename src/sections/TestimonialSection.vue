@@ -19,7 +19,7 @@ import CardTestimonial from '@/components/CardTestimonial.vue';
 
 <style scoped lang="scss">
 .testimonials {
-  padding: 4rem 1rem;
+  padding: 5rem 1rem;
   background-color: $neutral-gray;
 
   &__container {
