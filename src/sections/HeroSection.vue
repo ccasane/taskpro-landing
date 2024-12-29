@@ -27,7 +27,7 @@ import HeroButtons from '@/components/HeroButtons.vue';
 <style scoped lang="scss">
 .hero {
   @include flexCenter;
-  padding: 4rem 1rem;
+  padding: 5rem 1rem;
   background-color: $background-light;
 
   &__container {
